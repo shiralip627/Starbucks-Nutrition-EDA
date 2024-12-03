@@ -14,7 +14,7 @@ data = pd.read_csv("data/cleaned_starbucks.csv")
 if page == "Home":
     st.title("Welcome to the Starbucks EDA App! ☕️")
     st.write("Explore insights derived from Starbucks nutrition information. Dive into the data, discover trends, and visualize key metrics.")
-    st.image("starbucks.jpg")
+    st.image("images/starbucks.jpg")
 
 # Overview of the Data
 if page == "Overview":
